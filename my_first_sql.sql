@@ -1,0 +1,23 @@
+-- CREATE DATABASE startersql;
+-- USE startersql;
+-- CREATE TABLE users(
+-- id INT AUTO_INCREMENT PRIMARY KEY, /* primary key is used for unique value*/
+-- name VARCHAR(100) NOT NULL, /*it cant be null */
+-- email VARCHAR(100) UNIQUE NOT NULL, /* unique keyword used for avoiding duplication*/
+-- gender ENUM('Male','Female','Other'),
+-- date_of_birth DATE,
+-- create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
+-- ); 
+-- SELECT  * FROM users; for comment out we can select ctrl+/ 
+ -- ALTER TABLE users ADD column is_active BOOLEAN default TRUE;
+ -- SELECT * FROM users;
+--  ALTER TABLE users DROP COLUMN is_active;
+--  SELECT * FROM users;
+
+-- ALTER TABLE users MODIFY COLUMN name varchar(150);
+-- SELECT * FROM users;
+
+-- ALTER TABLE users MODIFY COLUMN email varchar(100) AFTER id; ( beacuse of this command id aayega uske bad email if we want to shift the column )
+-- SELECT * FROM users;
+-- ALTER TABLE users MODIFY COLUMN date_of_birth DATE first; ("with this command date_of_birth will shift to the first position ")
+-- SELECT * FROM users; 
