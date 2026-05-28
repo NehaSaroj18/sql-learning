@@ -25,11 +25,7 @@ USE startersql;
 
 
 
-
-
-
-
-
+-- Use of foregin key 
 SELECT users.name, addresses.city, addresses.state
 FROM users
 RIGHT JOIN addresses ON users.id = addresses.user_id
