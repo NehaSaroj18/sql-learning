@@ -70,7 +70,7 @@ VALUES
 	FROM books 
 	GROUP BY author ;
 
- Genres having more than 1 book
+ --Genres having more than 1 book
 	SELECT genre , COUNT(*) AS total
 	FROM books
 	GROUP BY genre 
