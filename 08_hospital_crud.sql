@@ -37,3 +37,19 @@ USE hospitaldb;
 -- SELECT patient_name , disease 
 -- FROM patients 
 -- WHERE discharget = TRUE ;
+
+-- b) Change Amit's doctor to Dr. Verma
+
+-- 	UPDATE patients
+-- 	SET doctor_name = 'Dr. Verma'
+-- 	WHERE patient_id = 3;
+
+-- c) Mark all patients with bill less than 7000 as discharged
+-- 	UPDATE patients
+-- 	SET discharged = TRUE
+-- 	WHERE bill_amount < 7000;
+
+-- a) View discharged patients
+-- 	SELECT *
+-- 	FROM patients
+-- 	WHERE discharged = TRUE;
