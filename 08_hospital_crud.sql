@@ -59,3 +59,20 @@ USE hospitaldb;
 -- DELETE FROM patients
 -- WHERE discharged = TRUE;
 
+
+-- Aggregate Queries
+
+-- SELECT COUNT(*) AS total_patients
+-- FROM patients;
+
+-- SELECT doctor_name, COUNT(*) AS total_patients
+-- FROM patients
+-- GROUP BY doctor_name;
+
+-- SELECT AVG(bill_amount) AS average_bill
+-- FROM patients;
+
+-- SELECT gender, COUNT(*) AS total
+-- FROM patients
+-- GROUP BY gender;
+
