@@ -53,3 +53,9 @@ USE hospitaldb;
 -- 	SELECT *
 -- 	FROM patients
 -- 	WHERE discharged = TRUE;
+
+-- b) Delete discharged patients
+
+-- DELETE FROM patients
+-- WHERE discharged = TRUE;
+
