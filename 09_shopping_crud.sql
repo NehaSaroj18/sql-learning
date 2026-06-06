@@ -30,7 +30,7 @@
 -- 	WHERE payment_status = FALSE;
 
 -- 3. Show orders above ₹10,000
-	SELECT *
-	FROM orders 
-	WHERE price >= 10000;
+-- 	SELECT *
+-- 	FROM orders 
+-- 	WHERE price >= 10000;
 
